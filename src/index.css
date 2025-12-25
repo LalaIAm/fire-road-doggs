@@ -1,0 +1,28 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-paper: #eae7dc;
+  --color-ink: #232323;
+  --color-rust: #c8553d;
+  --color-sage: #8e9c6d;
+  --color-sand: #d8c3a5;
+  --color-tape: rgba(255, 255, 255, 0.4);
+
+  --font-serif: 'Fraunces';
+  --font-mono: 'Space Mono';
+  --font-hand: 'Reenie Beanie';
+
+  --animate-drift: drift 15s ease-in-out infinite;
+  --animate-scribble: scribble 0.5s steps(10) forwards;
+
+  @keyframes drift {
+    0%, 100% {
+      transform: translateY(0) rotate(0deg);
+    }
+    50% {
+      transform: translateY(-15px) rotate(1deg);
+    }
+  }
+}
+
+@import './assets/css/landing.css';
