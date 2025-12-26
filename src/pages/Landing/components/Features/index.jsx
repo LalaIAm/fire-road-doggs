@@ -5,7 +5,7 @@ const Features = () => {
     <section className="py-24 overflow-hidden relative">
       <div className="max-w-7xl mx-auto px-6">
         <div className="mb-20">
-          <span className="font-hand text-4xl text-rust rotate-[-2deg] inline-block">
+          <span className="font-hand text-4xl text-rust -rotate-2 inline-block">
             Curated Vibes
           </span>
           <h3 className="font-serif text-6xl mt-2">Tools for Drift.</h3>
@@ -21,7 +21,7 @@ const Features = () => {
                   REL 1.0
                 </span>
               </div>
-              <h4 className="font-serif text-3xl mb-4">Route Painter</h4>
+              <h4 className="font-serif text-3xl mb-4" data-test="feature-title-1">Route Painter</h4>
               <p className="font-mono text-sm text-gray-600 mb-8 max-w-xs">
                 Don't just pick a destination. Pick a mood. Scenic, haunted, or
                 "barely a road."
@@ -49,7 +49,7 @@ const Features = () => {
                   BETA
                 </span>
               </div>
-              <h4 className="font-serif text-3xl mb-4">Pack Planning</h4>
+              <h4 className="font-serif text-3xl mb-4" data-test="feature-title-2">Pack Planning</h4>
               <p className="font-mono text-sm text-gray-600 mb-8 max-w-xs">
                 A shared canvas for the whole crew. Drag, drop, and vote on
                 where to sleep.

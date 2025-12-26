@@ -27,7 +27,7 @@ const Landing = () => {
         </button>
       </nav>
       <header className="relative min-h-[110vh] pt-32 px-6 overflow-hidden flex flex-col items-center">
-        <div className="absolute top-1/4 left-10 font-hand text-6xl text-ink/10 -rotate-12 pointer-events-none select-none">
+        <div className="absolute top-1/4 left-10 font-hand text-6xl text-ink/10 -rotate-12 pointer-events-none select-none" data-test="hero-text-1">
           Are we there yet?
         </div>
         <div className="absolute bottom-1/4 right-10 font-hand text-6xl text-ink/10 rotate-12 pointer-events-none select-none">
@@ -38,7 +38,7 @@ const Landing = () => {
           <p className="font-mono text-xs md:text-sm text-rust uppercase tracking-[0.3em] mb-6">
             /// coordinates_unknown
           </p>
-          <h1 className="font-serif font-black text-[15vw] md:text-[8rem] leading-[0.85] text-ink mix-blend-multiply relative inline-block">
+          <h1 className="font-serif font-black text-[15vw] md:text-[8rem] leading-[0.85] text-ink mix-blend-multiply relative inline-block" data-test="hero-text-2">
             GET{" "}
             <span
               className="text-transparent"

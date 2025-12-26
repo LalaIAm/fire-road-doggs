@@ -24,7 +24,7 @@ function ParallaxCollage() {
         <p className="font-hand text-3xl leading-tight">
           Stop looking at the ETA and start looking out the window.
         </p>
-        <button className="mt-6 w-full border border-ink py-2 uppercase font-mono text-xs hover:bg-ink hover:text-paper transition-colors cursor-pointer">
+        <button data-test="plan-trip-button" className="mt-6 w-full border border-ink py-2 uppercase font-mono text-xs hover:bg-ink hover:text-paper transition-colors cursor-pointer">
           Plan Trip
         </button>
       </div>

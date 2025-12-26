@@ -60,7 +60,7 @@ const Blog = () => {
             </div>
           </div>
           <div className="break-inside-avoid relative group cursor-pointer">
-            <div className="bg-sage/20 border border-sage p-6 shadow-md rotate-[-1deg] hover:rotate-0 transition-transform">
+            <div className="bg-sage/20 border border-sage p-6 shadow-md -rotate-1 hover:rotate-0 transition-transform">
               <span className="font-mono text-[10px] bg-sage text-white px-2 py-1 mb-2 inline-block">
                 GUIDE
               </span>

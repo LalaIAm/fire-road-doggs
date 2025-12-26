@@ -46,10 +46,10 @@ const SocialProof = () => {
           <div className="relative group parallax-scroll" data-speed="0.03">
             <div className="bg-white p-6 shadow-sm border-t-8 border-dotted border-gray-300 relative rotate-1 transition-transform group-hover:rotate-0 h-full">
               <div className="absolute -top-3 left-1/2 -translate-x-1/2 w-4 h-4 bg-paper rounded-full border border-gray-300 shadow-inner"></div>
-              <p className="font-mono text-xs mb-4 text-gray-400">
+              <p className="font-mono text-xs mb-4 text-gray-400" data-test="social-proof-item-1">
                 RECEIPT #0492 // USER: SARAH_J
               </p>
-              <p className="font-serif text-xl leading-snug mb-6">
+              <p className="font-serif text-xl leading-snug mb-6" data-test="social-proof-item-2">
                 "Finally, an app that understands I want to stop for weird
                 roadside attractions, not just gas stations."
               </p>
@@ -71,7 +71,7 @@ const SocialProof = () => {
                 zero cell service and 100% vibes."
               </p>
               <div className="absolute bottom-6 right-6 flex items-center gap-3">
-                <div className="font-hand text-xl text-gray-500 transform -rotate-6">
+                <div data-test="social-proof-item-3" className="font-hand text-xl text-gray-500 transform -rotate-6">
                   @Nomad_Mike
                 </div>
               </div>
